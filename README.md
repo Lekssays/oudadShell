@@ -9,6 +9,7 @@ This is a simple shell implemented in C. It is basically for educational purpose
 - vi : text editor
 - bye : exit the shell
 - help : display these commands
+Development: It was tested on macOS Sierra and Ubuntu 16.04 LTS.
 
 ## Usage:
 - oudad$ > command argument
