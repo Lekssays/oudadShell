@@ -67,27 +67,27 @@ int du(char **args) {
 		char *exec;
 		char dir[20] = "*", cmd[20] = "du -h ";
 		if((exec = malloc(strlen(cmd) + strlen(dir) + 1) ) != NULL) {
-	    	exec[0] = '\0';  
-	    	strcat(exec, cmd);
-	    	strcat(exec, dir);
-	    	int state = system(exec);
-	    	return state;
+	    		exec[0] = '\0';  
+	    		strcat(exec, cmd);
+	    		strcat(exec, dir);
+	    		int state = system(exec);
+	    		return state;
 		} else {
-	    	fprintf(stderr,"oudad: malloc failed!\n");
-	    	return -1;
+			fprintf(stderr,"oudad: malloc failed!\n");
+			return -1;
 		}
 	} else {
 		char *exec;
 		char cmd[20] = "du -h ";
 		if((exec = malloc(strlen(cmd) + strlen(args[1]) + 1) ) != NULL) {
-	    	exec[0] = '\0'; 
-	    	strcat(exec, cmd);
-	    	strcat(exec, args[1]);
-	    	int state = system(exec);
-	    	return state;
+	    		exec[0] = '\0'; 
+	    		strcat(exec, cmd);
+	    		strcat(exec, args[1]);
+	    		int state = system(exec);
+	    		return state;
 		} else {
-	    	fprintf(stderr,"oudad: malloc failed!\n");
-	    	return -1;
+	    		fprintf(stderr,"oudad: malloc failed!\n");
+	    		return -1;
 		}
 	}
 }
