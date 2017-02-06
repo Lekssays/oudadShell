@@ -15,6 +15,7 @@ Tested on macOS Sierra and Ubuntu 16.04 LTS.
 
 ## Usage:
 - oudad$ > command argument
+- e.g. du folder
 
 ## License:
 Please refer to GNU General Public License 3.
