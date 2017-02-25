@@ -14,10 +14,10 @@ This is a simple shell implemented in C. It is basically for educational purpose
 Tested on macOS Sierra and Ubuntu 16.04 LTS.
 
 ## Usage:
-- oudad$ > command argument
-- e.g. du folder
-
+```
+oudad$ > command argument
+```
 ## License:
 Please refer to GNU General Public License 3.
 
-with love,
+with love
